@@ -134,15 +134,15 @@ To start new work, follow the same steps as before:
    git pull
    ```
 
-   > [!NOTE]
-   > If you get a merge conflict or git tries to create a merge commit, see [below](#i-have-merge-conflicts)
-
 1. Create a new branch for your work
 
    ```shell
    git switch -c NEW_WORKING_BRANCH
    ```
 
+> [!NOTE]
+> If you get a merge conflict or git tries to create a merge commit, see [below](#i-have-merge-conflicts)
+ 
 Note, you do not need to do anything to your old branches, but if you do want to cleanup old Pull Request branches, checkout this [Stack Overflow answer](https://stackoverflow.com/a/6127884).
 
 ## Wait, But What If?
