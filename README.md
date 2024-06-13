@@ -84,30 +84,15 @@ For each request, add a new commit to address that request, then push your new c
 
 Every time you push, the Pull Request will be automatically updated and reviewers notified.
 
-
 > [!TIP]
 > You do not need to push each commit. Making several commits and pushing once is fine.
-
-
-> [!IMPORTANT]
-> Do **NOT** rebase or amend commits, i.e. no force pushes please.
-
 
 ## Merge Your Code
 
 Once you have gotten enough approvals, use the *Squash and Merge* button to prepare your changes for merge.
 
-> [!WARNING]
-> Do **NOT** merge _other_ people's Pull Requests.
-
-
 The _Squash and Merge_ button will present you with a text box to write a merge title and message.
 Check that the merge title and message match your PR title and message.
-
-
-> [!TIP]
-> Make your commit message informative and helpful.
-
 
 General rules for commit messages:
 
